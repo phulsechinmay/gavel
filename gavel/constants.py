@@ -14,6 +14,8 @@ SETTING_FALSE = 'false'
 DEFAULT_WELCOME_MESSAGE = '''
 Welcome to Gavel.
 
+This is the judging system we’re using for **TAMU Datathon 2019**. 
+
 **Please read this important message carefully before continuing.**
 
 Gavel is a fully automated expo judging system that both tells you where to go
@@ -32,24 +34,30 @@ Gavel makes it really simple for you to submit votes, but please think hard
 before you vote. **Once you make a decision, you can't take it back**.
 '''.strip()
 
-DEFAULT_EMAIL_SUBJECT = 'Welcome to Gavel!'
+DEFAULT_EMAIL_SUBJECT = 'TAMU Datathon Judging Info!'
 
 DEFAULT_EMAIL_BODY = '''
-Hi {name},
+Hi {name}!
 
-Welcome to Gavel, the online expo judging system. This email contains your
-magic link to the judging system.
+Thank you for being a judge for TAMU Datathon 2019!
 
-DO NOT SHARE this email with others, as it contains your personal magic link.
+You'd be judging teams in the Learner track. The judging system works on pairwise judging, you'll get more information about it when you go to the link below.
 
-To access the system, visit {link}.
+Below is the magic link for you to access the judging system. Please DO NOT share this with others, it's your personal link.
 
-Once you're in, please take the time to read the welcome message and
-instructions before continuing.
+To access the judging system, visit this link: {link}.
+
+Please make sure to read the welcome message and instructions before you continue.
+
+Happy judging!
+
+- TAMU Datathon Team
 '''.strip()
 
 DEFAULT_CLOSED_MESSAGE = '''
-Gavel judging is currently closed. If judging is still happening in person, try refreshing the page.
+The judging system is closed for now. 
+
+If you’ve already finished judging all your teams, you’re done!
 '''.strip()
 
 DEFAULT_CLOSING_MESSAGE = '''
@@ -65,5 +73,7 @@ You are currently logged out. Open your magic link to get started.
 '''.strip()
 
 DEFAULT_WAIT_MESSAGE = '''
-Wow, you've visited all the projects presented in this expo. Thank you so much for your effort. From this point, follow any post-expo instructions event staff have provided for judges.
+Seems like the system is having issues assigning you new teams. Please reload the page in a minute.
+
+If you’ve looked at all the teams already, then you’re done judging!
 '''.strip()
