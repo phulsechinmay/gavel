@@ -41,7 +41,7 @@ Hi {name}!
 
 Thank you for being a judge for TAMU Datathon 2019!
 
-You'd be judging teams in the Learner track. The judging system works on pairwise judging, you'll get more information about it when you go to the link below.
+You'd be judging teams in the Competitor track. The judging system works on pairwise judging, you'll get more information about it when you go to the link below.
 
 Below is the magic link for you to access the judging system. Please DO NOT share this with others, it's your personal link.
 
